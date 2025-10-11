@@ -37,3 +37,4 @@ int rollno[60];
     printf("marks: %.2f", marks);
     return 0;
 }
+//comment
