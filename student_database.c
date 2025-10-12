@@ -17,7 +17,7 @@ float sum =0.0, avg_marks;
 printf("enter the number of students:\n");
 scanf("%d", &n);
 
-sptr= (struct Student *)malloc(n*sizeof(struct Student));
+sptr= (struct Student *)malloc(n*sizeof(struct Student)); //allocating dynamic size to structure
 
 
 for(int i=0;i<n;i++){
